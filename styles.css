@@ -47,9 +47,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .second-container{
-  width: 1540px;
   background: hsl(0, 0%, 98%);
-  height: 400px;
   display: flex;
   justify-content: center;
 }
@@ -75,7 +73,6 @@ h1,h2,h3,h4,h5,h6,p {
   border-top: 4px solid  hsl(180, 62%, 55%);
   position: relative;
   border-radius: 5px;
-  box-shadow:
 }
 
 .supervisor-img{
@@ -90,12 +87,12 @@ h1,h2,h3,h4,h5,h6,p {
 
 .first-h3{
   color:  hsl(234, 12%, 34%);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .sec-p{
   font-size: 15px;
-  line-height: 20px;
   color: hsl(229, 6%, 66%);
 }
 

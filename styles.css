@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 .first-container{
   width: 40%;
-  height: 120px;
+  height: 125px;
   background: hsl(0, 0%, 98%);
   text-align: center;
   padding: 20px;
@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6,p {
 .first-h3{
   color: hsl(229, 6%, 66%);
   font-weight: 200;
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 
 .sec-h3{
@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6,p {
   background: hsl(0, 0%, 98%);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .inner1, .middle-inner1, .middle-inner2, .inner3 {
@@ -59,7 +60,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .mini-container1{
-  width: 400px;
+  width: 350px;
   background: hsl(0, 0%, 98%);
   height:600px;
   align-items: center;
@@ -67,9 +68,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .inner1 {
-  width: 370px;
+  width: 300px;
   background: white;
-  height: 250px;
+  height: 200px;
   margin: auto;
   padding: 30px;
   border-top: 4px solid  hsl(180, 62%, 55%);
@@ -78,10 +79,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .supervisor-img{
-  position: absolute;
-  top: 170px;
+  position:absolute;
+  top: 120px;
   right: 0;
-  left: 285px;
+  left: 225px;
   width: 50px;
   height: 50px;
 }
@@ -89,7 +90,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 .first-h3{
   color:  hsl(234, 12%, 34%);
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   font-weight: bold;
 }
 
@@ -99,31 +100,28 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .mini-container2{
-  width: 400px;
+  width: 300px;
   background: hsl(0, 0%, 98%);
-  height:600px;
-  margin-left: 15px;
-  margin-right: 15px;
-  display: grid;
-  margin-top: 0
+  margin-top: 0;
 }
 
 .middle-inner1{
-  width:370px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   background: white;
   margin:auto;
   padding: 30px;
+  margin-bottom: 30px;
   border-top: 4px solid hsl(0, 78%, 62%);
   position: relative;
   border-radius: 5px;
 }
 
 .team-builder-img{
-  position: absolute;
-  top: 170px;
+  position:absolute;
+  top: 130px;
   right: 0;
-  left: 285px;
+  left: 225px;
   width: 50px;
   height: 50px;
 }
@@ -139,8 +137,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .middle-inner2{
-  width:370px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   background: white;
   margin:auto;
   padding: 30px;
@@ -150,10 +148,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .karma-img{
-  position: absolute;
-  top: 170px;
+  position:absolute;
+  top: 130px;
   right: 0;
-  left: 285px;
+  left: 225px;
   width: 50px;
   height: 50px;
 }
@@ -170,7 +168,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 .mini-container3{
-  width: 400px;
+  width: 350px;
   background: hsl(0, 0%, 98%);
   height:600px;
   display: flex;
@@ -178,8 +176,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .inner3{
-  width: 370px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   background: white;
   margin: auto;
   border-top: 4px solid hsl(212, 86%, 64%);
@@ -189,10 +187,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .calculator-img{
-  position: absolute;
-  top: 170px;
+  position:absolute;
+  top: 120px;
   right: 0;
-  left: 285px;
+  left: 225px;
   width: 50px;
   height: 50px;
 }
@@ -205,4 +203,89 @@ h1,h2,h3,h4,h5,h6,p {
 .fifth-p{
   font-size: 15px;
   color: hsl(229, 6%, 66%);
+}
+
+@media screen and (max-width: 1024px){
+
+
+  .first-h3{
+    margin-bottom: 12px;
+  }
+
+    .first-container{
+      height: 130px;
+    }
+
+.mini-container2{
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.supervisor-img, .team-builder-img, .calculator-img, .karma-img{
+  left: 220px;
+  top: 125px;
+}
+
+}
+
+@media screen and (max-width:768px){
+  .first-container{
+    height: 180px;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 400px;
+  }
+.second-container{
+  display: block;
+}
+
+.mini-container1, .mini-container2, .mini-container3{
+  margin: auto;
+}
+
+.mini-container1{
+  height: 250px;
+}
+
+.middle-inner1{
+  margin-bottom: 20px;
+}
+
+.mini-container3{
+  height: 250px;
+}
+
+}
+
+@media screen and (max-width: 426px){
+  .first-container{
+    height: 170px;
+  padding-top: 50px;
+  }
+  .first-p{
+  padding: none;
+  }
+
+  .sec-h3 {
+    margin-bottom: 15px;
+}
+
+}
+
+
+@media screen and (max-width:376px){
+ .first-container{
+   height: 180px;
+ }
+
+ .sec-h3 {
+   margin-bottom: 17px;
+}
+
+ .first-p{
+ padding-left: 30px;
+ padding-right: 30px;
+ }
 }
